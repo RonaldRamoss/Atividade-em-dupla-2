@@ -16,7 +16,8 @@ var quartaConta = parseFloat(6.8) * idade;
 var quintaConta = terceiraConta - quartaConta;
 var sextaConta = quintaConta + 66;
 var setimaConta = sextaConta * taxaAtividade;
-$("#resultado").val(setimaConta);
+var final = setimaConta;
+$("#resultado").val(final);
 }
 else{
   var al = parseFloat($("#altura").val());
